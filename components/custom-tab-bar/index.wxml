@@ -1,0 +1,8 @@
+<view class="tab-bar">
+  <view class="tab" bindtap="switchTab" data-url="/pages/index/index">
+    <text>Home</text>
+  </view>
+  <view class="tab" bindtap="switchTab" data-url="/pages/logs/logs">
+    <text>Logs</text>
+  </view>
+</view>

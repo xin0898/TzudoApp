@@ -1,5 +1,6 @@
 <!--index.wxml-->
 <view class="container">
+
   <view class="userinfo">
     <block wx:if="{{canIUseOpenData}}">
       <view class="userinfo-avatar" bindtap="bindViewTap">
@@ -20,4 +21,8 @@
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
+  
 </view>
+<custom-tab-bar></custom-tab-bar>
+
+
